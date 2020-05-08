@@ -174,7 +174,7 @@ JSON Response,
 
 #### Frameworks
 
-* Scrapy - Used for web scraping of NLB (https://nlb.lk) and DLB (https://dlb.lk) websites.
+* Scrapy - Used for web scraping of [NLB](https://nlb.lk) and [DLB](https://dlb.lk) websites.
 * Flask - Used as the development WSGI server in which the REST API is hosted on.
 
 #### External Libraries

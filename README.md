@@ -184,3 +184,10 @@ JSON Response,
 #### Database
 
 * MongoDB - Used as the database to store scraped lottery data.
+
+### Future Work
+
+* Deploying of the application onto a production server.
+* Integration of OAuth authorization framework into the application, for securing and authorizing the use of the API.
+
+## THE END

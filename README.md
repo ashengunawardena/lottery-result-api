@@ -12,11 +12,11 @@ This application extracts lottery results published on the official websites of 
 
 This endpoint is used to fetch all lottery results on a given date.
 
-Parameters,
+**Query Parameters,**
 
-* year : The year of the date (numeric).
-* month : The month of the date (numberic).
-* day : The month of the date (numeric).
+* *year* : The year of the date (numeric).
+* *month* : The month of the date (numberic).
+* *day* : The month of the date (numeric).
 
 **Sample Usage,**
 

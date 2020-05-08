@@ -8,11 +8,17 @@ This application extracts lottery results published on the official websites of 
 
 ### API Endpoints
 
-   #### **GET** <code>/results?year={year}&month={month}&day={day}</code>
+#### **GET** <code>/results?year={year}&month={month}&day={day}</code>
 
-  This endpoint is used to fetch all lottery results on a given date.
+This endpoint is used to fetch all lottery results on a given date.
 
-  Parameters,
+Parameters,
+
+* year : The year of the date (numeric).
+* month : The month of the date (numberic).
+* day : The month of the date (numeric).
+
+**Sample Usage,**
 
 
 

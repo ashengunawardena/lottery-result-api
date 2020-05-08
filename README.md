@@ -8,7 +8,7 @@ This application extracts lottery results published on the official websites of 
 
 ### API Endpoints
 
-#### GET ''' /results? '''
+#### GET <code>/results?</code>
 
 ### Technology Stack
 

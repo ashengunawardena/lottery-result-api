@@ -8,7 +8,9 @@ This application extracts lottery results published on the official websites of 
 
 ### API Endpoints
 
-#### GET <code>/results?</code>
+#### **GET** <code>/results?year={year}&month={month}&day={day}</code>
+
+
 
 ### Technology Stack
 

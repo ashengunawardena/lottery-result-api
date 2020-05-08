@@ -27,39 +27,39 @@ JSON Response,
     {
         "dlb": [
             {
-            "draw_number": "1653",
-            "letter": "T",
-            "lottery_id": "6",
-            "numbers": [
-                "03",
-                "13",
-                "38",
-                "46"
-            ]
+                "draw_number": "1653",
+                "letter": "T",
+                "lottery_id": "6",
+                "numbers": [
+                    "03",
+                    "13",
+                    "38",
+                    "46"
+                ]
             },
             {
-            "draw_number": "2789",
-            "lottery_id": "2",
-            "numbers": [
-                "34",
-                "40",
-                "47",
-                "55"
-            ],
-            "zodiac_sign": "thula"
+                "draw_number": "2789",
+                "lottery_id": "2",
+                "numbers": [
+                    "34",
+                    "40",
+                    "47",
+                    "55"
+                ],
+                "zodiac_sign": "thula"
             }
         ],
         "nlb": [
             {
-            "draw_number": "671",
-            "lottery_id": "2",
-            "numbers": [
-                "3",
-                "14",
-                "24",
-                "64"
-            ],
-            "zodiac_sign": "CAPRICORN"
+                "draw_number": "671",
+                "lottery_id": "2",
+                "numbers": [
+                    "3",
+                    "14",
+                    "24",
+                    "64"
+                ],
+                "zodiac_sign": "CAPRICORN"
             }
         ]   
     }

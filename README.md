@@ -10,7 +10,7 @@ This application extracts lottery results published on the official websites of 
 
 #### **GET** <code>/results?year={year}&month={month}&day={day}</code>
 
-     This endpoint is used to fetch all lottery results on a given date.
+This endpoint is used to fetch all lottery results on a given date.
 
 **Query Parameters,**
 
@@ -63,9 +63,107 @@ JSON Response,
             }
         ]   
     }
-</code>
 
+#### **POST** <code>/nlb</code>
 
+This endpoint is used to find results and prizes for a nlb lottery.
+
+**Form Data,**
+
+* ***lottery_id*** : The ID of the lottery.
+* ***draw_no*** : The draw number of the lottery.
+* ***numbers*** : The number fields of the lottery.
+* ***letter*** : The letter field of the lottery (optional).
+* ***super_number*** : The super number field of the lottery (optional).
+* ***zodiac_sign*** : The zodiac sign field of the lottery (optional).
+
+**Sample Usage,**
+
+Request URL: <code>http://0.0.0.0:5000/nlb</code>
+
+Form Data,
+
+![Supiri Vasana - Form Data](https://user-images.githubusercontent.com/58177462/81444479-d2708c00-9194-11ea-9715-1dbef23ff388.png)
+
+JSON Response,
+
+    {
+        "bonus_numbers": [
+            "5",
+            "55"
+        ],
+        "draw": 1504,
+        "draw_date": "15-02-2020",
+        "id": 9,
+        "is_type_nlb": true,
+        "matches": {
+            "bonus_numbers": [
+                false,
+                true
+            ],
+            "numbers": [
+                0,
+                1,
+                2
+            ],
+            "super_number": false
+        },
+        "numbers": [
+            "6",
+            "13",
+            "56",
+            "61"
+        ],
+        "prize": "Rs. 50,000",
+        "super_number": "8"
+    }
+
+#### **POST** <code>/dlb</code>
+
+This endpoint is used to find results and prizes for a dlb lottery.
+
+**Form Data,**
+
+* ***lottery_id*** : The ID of the lottery.
+* ***draw_no*** : The draw number of the lottery.
+* ***numbers*** : The number fields of the lottery.
+* ***letter*** : The letter field of the lottery (optional).
+* ***fate_number*** : The fate number field of the lottery (optional).
+* ***zodiac_sign*** : The zodiac sign field of the lottery (optional).
+
+**Sample Usage,**
+
+Request URL: <code>http://0.0.0.0:5000/dlb</code>
+
+Form Data, 
+
+![Development Fortune - Form Data](https://user-images.githubusercontent.com/58177462/81444470-d00e3200-9194-11ea-8ca2-648a52bad86e.png)
+
+JSON Response,
+
+    {
+        "draw": 320,
+        "draw_date": "05-02-2020",
+        "fate_number": "09",
+        "id": 9,
+        "is_type_nlb": false,
+        "letter": "E",
+        "matches": {
+            "fate_number": true,
+            "letter": true,
+            "numbers": [
+            0,
+            1,
+            2
+            ]
+        },
+        "numbers": [
+            "02",
+            "08",
+            "63"
+        ],
+        "prize": "Rs. 10,000,000"
+    }
 
 
 ### Technology Stack

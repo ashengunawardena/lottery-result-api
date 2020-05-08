@@ -24,63 +24,45 @@ Request URL: <code>http://0.0.0.0:5000/results?year=2020&month=3&day=5</code>
 
 JSON Response,
 
-<code>
-{
-  "dlb": [
     {
-      "draw_number": "1653",
-      "letter": "T",
-      "lottery_id": "6",
-      "numbers": [
-        "03",
-        "13",
-        "38",
-        "46"
-      ]
-    },
-    {
-      "draw_number": "2789",
-      "lottery_id": "2",
-      "numbers": [
-        "34",
-        "40",
-        "47",
-        "55"
-      ],
-      "zodiac_sign": "thula"
+        "dlb": [
+            {
+            "draw_number": "1653",
+            "letter": "T",
+            "lottery_id": "6",
+            "numbers": [
+                "03",
+                "13",
+                "38",
+                "46"
+            ]
+            },
+            {
+            "draw_number": "2789",
+            "lottery_id": "2",
+            "numbers": [
+                "34",
+                "40",
+                "47",
+                "55"
+            ],
+            "zodiac_sign": "thula"
+            }
+        ],
+        "nlb": [
+            {
+            "draw_number": "671",
+            "lottery_id": "2",
+            "numbers": [
+                "3",
+                "14",
+                "24",
+                "64"
+            ],
+            "zodiac_sign": "CAPRICORN"
+            }
+        ]   
     }
-  ],
-  "nlb": [
-    {
-      "draw_number": "671",
-      "lottery_id": "2",
-      "numbers": [
-        "3",
-        "14",
-        "24",
-        "64"
-      ],
-      "zodiac_sign": "CAPRICORN"
-    },
-    {
-      "draw_number": "006",
-      "letter": "B",
-      "lottery_id": "10",
-      "numbers": [
-        "2",
-        "6",
-        "10",
-        "67"
-      ],
-      "special_numbers": [
-        "2",
-        "8",
-        "7",
-        "0"
-      ]
-    }
-  ]
-}
 </code>
 
 

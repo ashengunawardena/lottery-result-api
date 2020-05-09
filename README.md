@@ -1,5 +1,14 @@
 ## Lottery Result API
 
+### Table of Content
+
+* [Overview](https://github.com/ashengunawardena/lottery-result-api#overview)
+* [API Endpoints](https://github.com/ashengunawardena/lottery-result-api#api-endpoints)
+    * [GET /results?year={year}&month={month}&day={day}](https://github.com/ashengunawardena/lottery-result-api#get-resultsyearyearmonthmonthdayday)
+    * [POST /nlb](https://github.com/ashengunawardena/lottery-result-api#post-nlb)
+    * [POST /dlb](https://github.com/ashengunawardena/lottery-result-api#post-dlb)
+* [Technology Stack](https://github.com/ashengunawardena/lottery-result-api#technology-stack)
+
 ### Overview
 
 In Sri Lanka, lottery draws are held by [National Lotteries Board](https://nlb.lk) and [Development Lotteries Board](https://dlb.lk). The lottery results are published every night on the television channel [Rupavahini](http://www.rupavahini.lk/) and are published to their respective official websites thereafter. 
